@@ -1,0 +1,8 @@
+.btnMap {
+	width:50px !important;
+	background:transparent url(../images/map.gif) no-repeat center center;
+}
+.btnCode {
+	background:transparent url(../images/code.gif) no-repeat 16px 16px;
+	background-position:2px 2px;
+}

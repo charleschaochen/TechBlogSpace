@@ -1,0 +1,67 @@
+.stat_data_box {
+	width: 100%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.stat_data_box .stat_data_visitor {
+	width: 180px;
+	height: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/visitor.png);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	box-shadow: 3px 3px 4px #ccc;
+	cursor: pointer;
+	float: left;
+	text-align: center
+}
+
+.stat_data_box .stat_data_message {
+	width: 180px;
+	height: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/message.png);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	box-shadow: 3px 3px 4px #ccc;
+	cursor: pointer;
+	float: left;
+	margin-left: 30px;
+	text-align: center
+}
+
+.stat_data_box .stat_data_download {
+	width: 180px;
+	height: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/download.png);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	box-shadow: 3px 3px 4px #ccc;
+	cursor: pointer;
+	float: left;
+	margin-left: 30px;
+	text-align: center
+}
+
+.stat_data_box .stat_data_text {
+	font-size: 14px;
+	margin-top: 45px;
+	font-weight: bold;
+	color: #50A6D9
+}

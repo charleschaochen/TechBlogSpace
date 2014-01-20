@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 指定Struts 2配置文件的DTD信息 -->
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<!-- 指定Struts 2应用的国际化资源文件 -->
+	<constant name="struts.custom.i18n.resources" value="mes" />
+	<!-- 指定上传文件的临时文件夹 -->
+	<constant name="struts.multipart.saveDir" value="c:/tmp"></constant>
+	<!--设定表单文件大小限制-->
+	<constant name="struts.multipart.maxSize" value="31457280"></constant>
+	<!-- 指定Struts 2应用编码的字符集 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<package name="bg_action" extends="struts-default">
+		<action name="login"
+			class="org.charlestech.actions.AdminLoginAction">
+			<result type="redirect" name="login">
+				/bg_admin/signon.html
+			</result>
+		</action>
+		<action name="article_category"
+			class="org.charlestech.actions.blog.ArticleCategoryAction">
+		</action>
+		<action name="article"
+			class="org.charlestech.actions.blog.ArticleAction">
+		</action>
+		<action name="mgArticle"
+			class="org.charlestech.actions.blog.ManageArticleAction">
+		</action>
+	</package>
+</struts>

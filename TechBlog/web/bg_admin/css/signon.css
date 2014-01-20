@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #eee;
+}
+
+.login_window {
+	font-family: "微软雅黑";
+	width: 100%;
+}
+
+.login_window .login_input {
+	width: 300px;
+	margin-left: 20px;
+	margin-bottom: 20px
+}
+
+.login_window .signon_window {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+h4.alert_error {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #F3D9D9 url(/bg_admin/images/icn_alert_error.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #D20009;
+	color: #7B040F;
+	padding: 10px 0;
+	text-indent: 40px;
+	font-size: 14px;
+}
+
+.forgot_pwd {
+	line-height: 3em;
+	margin-left: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer
+}
+
+#find_pwd .modal-body {
+	font-size: 16px;
+	font-family: "微软雅黑"
+}
+
+.login_footer {
+	width: 100%;
+	height: 100px;
+	background-color: #ddd;
+	border-top: 1px solid #aaa;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-size: 14px;
+	line-height: 2em;
+	padding-top: 10px
+}

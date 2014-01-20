@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Auto Pagination</title>
+		<meta http-equiv="description" content="Auto pagination style">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="/css/auto-pagination.min.css" />
+		<script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="/js/auto-pagination.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				load_pagination_pageno("page_area", 20, get_param("page"), 5, "autopagination_demo.html?page=");
+				load_pagination("page_area_1", 20, 5, "page", "autopagination_demo.html");
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="page_area"></div>
+		<div class="page_area_1"></div>
+	</body>
+</html>

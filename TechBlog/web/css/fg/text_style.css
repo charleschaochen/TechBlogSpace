@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+.text_green {
+	color: #63C000;
+}
+
+.text_bold_green {
+	color: #63C000;
+	font-weight: bold
+}
+
+.text_yellow {
+	color: #63C000;
+}
+
+.text_bold_yellow {
+	color: #63C000;
+	font-weight: bold
+}
+
+.text_blue {
+	color: #00CCFF;
+}
+
+.text_bold_blue {
+	color: #00CCFF;
+	font-weight: bold
+}

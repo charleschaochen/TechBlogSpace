@@ -1,0 +1,9 @@
+Charles Tech Blog - Login Reminder
+<p>**DO NOT REPLY THIS EMAIL**</p>
+<br/>
+<p>Hi $login_name$,</p>
+<p>You have logon <b>Chales Tech Blog Admin</b>&nbsp;system at $datetime$</p>
+<p>If the login action was not taken by yourself, please contact the the blog owner instantly in case of some damage!</p>
+<br/>
+<p>Thanks and Best Regards,</p>
+<p>Charles Tech Blog</p>

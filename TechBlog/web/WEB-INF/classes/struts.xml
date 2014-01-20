@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 指定Struts 2配置文件的DTD信息 -->
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<constant name="struts.action.extension" value="shtml" />
+	<package name="xheidtor_upload" extends="struts-default">
+		<action name="upload"
+			class="org.charlestech.actions.xheditor.UploadAction">
+			<param name="imgSavePath">/xheditor_img/</param>
+			<param name="imgFileExt">
+				image/bmp,image/x-png,image/gif,image/jpeg,image/pjpeg
+			</param>
+			<param name="imgMaxSize">1024000</param>
+			<param name="attachSavePath">/xheditor_link/</param>
+			<param name="attachFileExt">
+				text/plain,application/octet-stream,application/x-zip-compressed
+			</param>
+			<param name="attachMaxSize">5120000</param>
+		</action>
+	</package>
+	<include file="struts-fg.xml" />
+	<include file="struts-bg.xml" />
+</struts>

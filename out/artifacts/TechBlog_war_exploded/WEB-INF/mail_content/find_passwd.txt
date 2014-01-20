@@ -1,0 +1,11 @@
+Charles Tech Blog - Find Password
+<p>**DO NOT REPLY THIS EMAIL**</p>
+<br/>
+<p>Hi $login_name$,</p>
+<p>Your login account information of <b>Charles Tech Blog Admin</b>&nbsp;is as below,</p>
+<p>Login Name: $login_name$</p>
+<p>Password: $passwd$</p>
+<p>Please keep your account information safe.</p>
+<br/>
+<p>Thanks and Best Regards,</p>
+<p>Charles Tech Blog</p>

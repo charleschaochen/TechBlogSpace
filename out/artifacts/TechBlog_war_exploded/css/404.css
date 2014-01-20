@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: a9b1bc;
+	width: 100%;
+	height: 100%;
+	text-align: center
+}
+
+.main_container {
+	width: 1007px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	margin-top: 5%;
+}
+
+.main_container .title {
+	width: 1007px;
+	height: 219px;
+	margin: 0;
+	background: url(/images/404_title.png);
+}
+
+.main_container .search_children {
+	width: 1007px;
+	height: 381px;
+	margin: 0;
+	background: url(/images/404_search_children.png);
+	padding: 0;
+	overflow: hidden
+}

@@ -1,0 +1,9 @@
+Charles Tech Blog - You Have a New Reply
+<p>**DO NOT REPLY THIS EMAIL**</p>
+<br/>
+<p>Hi $name,</p>
+<p>You have a visitor reply!</p>
+<p>Click <a href='$url'>here</a> for more detail.</p>
+<br/>
+<p>Thanks and Best Regards,</p>
+<p>Charles Tech Blog</p>

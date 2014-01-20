@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0">
+<channel>
+	<title>Charles Tech Blog - Articles</title>
+	<link>http://www.charlestech.org</link>
+	<description>Articles RSS from Charles Tech Blog</description>
+	<language>cn</language>
+	<copyright>Copyright by Charles Chen</copyright>
+	<pubdate>2013-12-31 16:44:55</pubdate>
+<item>
+	<title>test</title>
+	<description>test......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=AXQZRSCWED8</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=ZECWSXRQAD1</guid>
+</item><item>
+	<title>JavaScript 跨域总结与解决办法</title>
+	<description>什么是跨域JavaScript出于安全方面的考虑，不允许跨域调用其他页面的对象。但在安全限制的同时也给注入iframe或是ajax应用上带来了不少麻烦。这里把涉及到跨域的一些问题简单地整理一下：首先什么是跨域，简单地理解就是因为JavaScript同源策略的限制，a.com 域名下的js无法操作b.com或是c.a.com域名下的对象。更详细的说明可以看下表：URL说明是否允许通信http://w......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=ZWRSXCADEQ4</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=ZDSEQCWXAR7</guid>
+</item><item>
+	<title>分享一个强制关闭页面函数</title>
+	<description>在WEB前端开发中，有时候需要强制关闭当前页面，可以通过js来实现，但不同浏览器的具体实现有所差异。这里博主分享一个适应多个主流浏览器的关闭页面函数。/**
+ * Close current page
+ */
+function close_page() {
+ if (navigator.userAgent.indexOf(&amp;quot;MSIE&amp;quot;) &amp;gt; 0) {
+  if (navi......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=RCQEAXWZSD6</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=SXRADZCEWQ8</guid>
+</item><item>
+	<title>test11</title>
+	<description>test11......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=XZWEASDRCQ43</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=RXQAZCDSEW38</guid>
+</item><item>
+	<title>test10</title>
+	<description>test10......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=WRSADZQXCE32</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=DXZQEWCASR78</guid>
+</item><item>
+	<title>test10</title>
+	<description>test10......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=SQXAZWDERC32</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=ZRACSDXEQW26</guid>
+</item><item>
+	<title>test9</title>
+	<description>test9......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=SEWCXRAZDQ62</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=ZEQSWXACRD64</guid>
+</item><item>
+	<title>test7</title>
+	<description>test7......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=CXWDASZRQE46</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=SXEZAWCQDR43</guid>
+</item><item>
+	<title>test6</title>
+	<description>test6......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=CSXWQDARZE66</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=EXAQWCRZSD22</guid>
+</item><item>
+	<title>test5</title>
+	<description>test5......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=ADWRQSZCEX04</link>
+	<author>charles</author>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=DRASXQZCEW25</guid>
+</item>
+</channel>
+</rss>

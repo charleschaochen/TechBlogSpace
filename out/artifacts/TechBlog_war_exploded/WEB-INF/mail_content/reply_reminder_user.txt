@@ -1,0 +1,9 @@
+您有一条来自Charles Tech Blog的回复
+<p>**请不要直接回复该邮件**</p>
+<br/>
+<p>Hi $name,</p>
+<p><b>Charles Tech Blog</b>的博主回复了你的评论哦！</p>
+<p>点击<a href='$url'>这里</a>去看看吧。</p>
+<br/>
+<p>Thanks and Best Regards,</p>
+<p>Charles Tech Blog</p>
