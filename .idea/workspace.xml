@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd47df57-94de-4420-8417-184533088ca3" name="Default" comment="Initial commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/black_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/valentine/valentine_pics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/valentine.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/js/valentine.js" />
+    <list default="true" id="fd47df57-94de-4420-8417-184533088ca3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java" />
@@ -123,7 +93,7 @@
       <file leaf-file-name="valentine.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="15" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.19838056" vertical-offset="1954" max-vertical-offset="2574">
+            <state line="114" column="15" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.37636763" vertical-offset="1880" max-vertical-offset="2574">
               <folding />
             </state>
           </provider>
@@ -137,6 +107,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Charles Chen" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -864,17 +839,21 @@
       <workItem from="1390464844983" duration="9543000" />
       <workItem from="1390545446498" duration="3089000" />
       <workItem from="1390707263497" duration="5182000" />
-      <workItem from="1390722508871" duration="5289000" />
+      <workItem from="1390722508871" duration="5397000" />
     </task>
     <task id="LOCAL-00001" summary="Add webservice test">
       <created>1390738587703</created>
       <updated>1390738587703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add valentine's day welcome page&#10;">
+      <created>1390738641067</created>
+      <updated>1390738641067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41748000" />
+    <option name="totallyTimeSpent" value="41856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -888,12 +867,12 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2773925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2773925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871014" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32732317" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24749868" sideWeight="0.5005549" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -901,7 +880,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24711168" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24711168" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -923,7 +902,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Add webservice test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add webservice test" />
+    <MESSAGE value="Add valentine's day welcome page&#10;" />
+    <MESSAGE value="Add order setting function for categories management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add order setting function for categories management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1207,7 +1188,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="15" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.19838056" vertical-offset="1954" max-vertical-offset="2574">
+        <state line="114" column="15" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.37636763" vertical-offset="1880" max-vertical-offset="2574">
           <folding />
         </state>
       </provider>

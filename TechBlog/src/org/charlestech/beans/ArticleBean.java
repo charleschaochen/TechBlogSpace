@@ -22,10 +22,10 @@ import org.charlestech.utils.rss.RSSFeedWriter;
 
 /**
  * Article Bean
- * 
+ *
  * @TODO Provides effective interfaces of article for actions
  * @author Charles Chen
- * 
+ *
  */
 public class ArticleBean {
 	private ArticleDao ad;
@@ -51,7 +51,7 @@ public class ArticleBean {
 
 	/**
 	 * Get all published articles by page
-	 * 
+	 *
 	 * @param pageNo
 	 * @param pagesize
 	 * @return
@@ -63,7 +63,7 @@ public class ArticleBean {
 
 	/**
 	 * Get all published articles count
-	 * 
+	 *
 	 * @return
 	 */
 	public int getPublishedCount() {
@@ -72,7 +72,7 @@ public class ArticleBean {
 
 	/**
 	 * Get tags list by article
-	 * 
+	 *
 	 * @param articleId
 	 * @return
 	 */
@@ -82,7 +82,7 @@ public class ArticleBean {
 
 	/**
 	 * Delete tags of article
-	 * 
+	 *
 	 * @param article
 	 */
 	public void deleteTags(Article article) {
@@ -92,7 +92,7 @@ public class ArticleBean {
 
 	/**
 	 * Get all published articles by category and tag name
-	 * 
+	 *
 	 * @param categoryId
 	 * @param tagName
 	 * @return
@@ -117,7 +117,7 @@ public class ArticleBean {
 
 	/**
 	 * Get all available(not deleted) articles by category and tag name
-	 * 
+	 *
 	 * @param categoryId
 	 * @param tagName
 	 * @return
@@ -140,7 +140,7 @@ public class ArticleBean {
 
 	/**
 	 * Filter articles by tag name
-	 * 
+	 *
 	 * @param articles
 	 * @param tagName
 	 * @return
@@ -160,7 +160,7 @@ public class ArticleBean {
 
 	/**
 	 * Paginate articles list
-	 * 
+	 *
 	 * @param articles
 	 * @param pageNo
 	 * @param pagesize
@@ -179,7 +179,7 @@ public class ArticleBean {
 
 	/**
 	 * Get summary text of the content text
-	 * 
+	 *
 	 * @param content
 	 * @param length
 	 * @return
@@ -192,7 +192,7 @@ public class ArticleBean {
 
 	/**
 	 * Get article object by UID
-	 * 
+	 *
 	 * @param uid
 	 * @return
 	 */
@@ -206,7 +206,7 @@ public class ArticleBean {
 
 	/**
 	 * Get article replies by article ID
-	 * 
+	 *
 	 * @param articleId
 	 * @return
 	 */
@@ -221,7 +221,7 @@ public class ArticleBean {
 
 	/**
 	 * Add new article reply
-	 * 
+	 *
 	 * @param reply
 	 * @return
 	 */
@@ -231,7 +231,7 @@ public class ArticleBean {
 
 	/**
 	 * Get partial article replies
-	 * 
+	 *
 	 * @param count
 	 * @return
 	 */
@@ -241,7 +241,7 @@ public class ArticleBean {
 
 	/**
 	 * Add article viewed times
-	 * 
+	 *
 	 * @param article
 	 */
 	public void increViewTimes(Article article) {
@@ -251,7 +251,7 @@ public class ArticleBean {
 
 	/**
 	 * Add or update article
-	 * 
+	 *
 	 * @param article
 	 * @param flag
 	 *            0:add,1:update
@@ -272,7 +272,7 @@ public class ArticleBean {
 
 	/**
 	 * Delete article logically
-	 * 
+	 *
 	 * @param articleId
 	 */
 	public void deleteArticle(Article article) {
@@ -281,7 +281,7 @@ public class ArticleBean {
 
 	/**
 	 * Delete article reply logically
-	 * 
+	 *
 	 * @param reply
 	 * @return -2:Reply id is invalid;-1:Reply does not exist;0:success;
 	 */
@@ -303,7 +303,7 @@ public class ArticleBean {
 
 	/**
 	 * Delete administrator article reply logically
-	 * 
+	 *
 	 * @param reply
 	 * @return -2:Reply id is invalid;-1:Reply does not exist;0:success;
 	 */
@@ -325,7 +325,7 @@ public class ArticleBean {
 
 	/**
 	 * Get administrator replies of a specific article reply
-	 * 
+	 *
 	 * @param replyId
 	 * @return
 	 */
@@ -342,7 +342,7 @@ public class ArticleBean {
 
 	/**
 	 * Update the rss xml file
-	 * 
+	 *
 	 * @throws Exception
 	 */
 	public void updateRss() throws Exception {

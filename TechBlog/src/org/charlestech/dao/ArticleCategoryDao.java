@@ -28,4 +28,11 @@ public interface ArticleCategoryDao {
 
 	ArticleCategory findByName(String name);
 
+    ArticleCategory findByOrder(Integer order);
+
+    int orderUp(Integer categoryId);
+
+    int lastOrder();
+
+    ArticleCategory findUpperArticle(Integer categoryId);
 }
