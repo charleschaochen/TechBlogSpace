@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd47df57-94de-4420-8417-184533088ca3" name="Default" comment="" />
+    <list default="true" id="fd47df57-94de-4420-8417-184533088ca3" name="Default" comment="Initial commit&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/black_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/commons-codec-1.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/commons-httpclient-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/commons-logging.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/jdom-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/stax-utils-20040917.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/valentine/valentine_pics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/wsdl4j-1.5.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-aegis-1.2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-annotations-1.2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-java5-1.2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-jsr181-api-1.0-M1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-spring-1.2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-xmlbeans-1.2.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xstream-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/client/ClientTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/valentine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/js/valentine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/xfire-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ArticleCategoryAction.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ArticleCategoryAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDao.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDaoImpl.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/TechBlog.iml" afterPath="$PROJECT_DIR$/TechBlog/TechBlog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlogSpace.iml" afterPath="$PROJECT_DIR$/TechBlogSpace.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TechBlog_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TechBlog_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/bg_admin/js/article_categories.js" afterPath="$PROJECT_DIR$/TechBlog/web/bg_admin/js/article_categories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/bg_admin/blog/article_categories.jsp" afterPath="$PROJECT_DIR$/TechBlog/web/bg_admin/blog/article_categories.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TechBlogSpace.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,21 +128,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminLoginAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/AdminLoginAction.java">
+      <file leaf-file-name="valentine.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/valentine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2556">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="53" column="65" selection-start="2771" selection-end="2771" vertical-scroll-proportion="-13.153846" vertical-offset="612" max-vertical-offset="1116">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewArticleAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ViewArticleAction.java">
+      <file leaf-file-name="valentine.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/js/valentine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="24" selection-start="623" selection-end="623" vertical-scroll-proportion="0.5111562" vertical-offset="0" max-vertical-offset="1152">
+            <state line="6" column="15" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valentine.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="114" column="15" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.19838056" vertical-offset="1954" max-vertical-offset="2574">
               <folding />
             </state>
           </provider>
@@ -93,12 +164,111 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TechBlog/web/js/fg/blog_list.js" />
+        <option value="$PROJECT_DIR$/TechBlog/web/js/fg/aaa.js" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ViewArticleAction.java" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestService.java" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/TechBlog/web/WEB-INF/xfire-servlet.xml.tld" />
+        <option value="$PROJECT_DIR$/TechBlog/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/TechBlog/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/TechBlog/web/WEB-INF/xfire-servlet.xml" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/client/ClientTest.java" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDao.java" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ArticleCategoryAction.java" />
+        <option value="$PROJECT_DIR$/TechBlog/web/bg_admin/js/article_categories.js" />
+        <option value="$PROJECT_DIR$/TechBlog/web/bg_admin/blog/article_categories.jsp" />
+        <option value="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java" />
+        <option value="$PROJECT_DIR$/TechBlog/web/welcome/js/valentine.js" />
+        <option value="$PROJECT_DIR$/TechBlog/web/welcome/valentine.html" />
+        <option value="$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -129,7 +299,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,7 +345,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,11 +363,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="charlestech" />
+              <option name="myItemId" value="welcome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,20 +385,99 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="charlestech" />
+              <option name="myItemId" value="welcome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlogSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlogSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlogSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlogSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valentine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlogSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlogSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bg_admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,14 +489,61 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\IntelliJ IDEA 13.0.1\IdeaProjects\TechBlogSpace\TechBlog\web\welcome\images\valentine" />
+      <recent name="D:\Development\IntelliJ IDEA 13.0.1\IdeaProjects\TechBlogSpace\TechBlog\web\welcome\images\lights" />
+      <recent name="D:\Development\IntelliJ IDEA 13.0.1\IdeaProjects\TechBlogSpace\TechBlog\web\welcome\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\IntelliJ IDEA 13.0.1\IdeaProjects\TechBlogSpace\TechBlog\web\welcome\images\valentine" />
+      <recent name="D:\Development\IntelliJ IDEA 13.0.1\IdeaProjects\TechBlogSpace\TechBlog\web\welcome" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 5.5.28">
+    <configuration default="false" name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.charlestech.service.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.charlestech.service.client.ClientTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TechBlog" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -472,6 +767,8 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 5.5.28" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 5.5.28" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="TechBlog:war exploded">
@@ -547,9 +844,15 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 5.5.28" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ClientTest" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientTest" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -579,44 +882,52 @@
       <created>1390208701993</created>
       <updated>1390208701993</updated>
       <workItem from="1390208704925" duration="8000" />
-      <workItem from="1390208735950" duration="1871000" />
+      <workItem from="1390208735950" duration="4396000" />
+      <workItem from="1390267700891" duration="162000" />
+      <workItem from="1390282585066" duration="6920000" />
+      <workItem from="1390354682819" duration="6243000" />
+      <workItem from="1390453460765" duration="916000" />
+      <workItem from="1390464844983" duration="9543000" />
+      <workItem from="1390545446498" duration="3089000" />
+      <workItem from="1390707263497" duration="5182000" />
+      <workItem from="1390722508871" duration="5187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1879000" />
+    <option name="totallyTimeSpent" value="41646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27877948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2974473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2773925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32732317" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24749868" sideWeight="0.5005549" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24775353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24711168" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -641,32 +952,277 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/AdminLoginAction.java">
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/js/auto-pagination.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2556">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xwork-core-2.2.1.jar!/com/opensymphony/xwork2/ValidationAware.class">
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/js/date-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="477" selection-end="477" vertical-scroll-proportion="0.6614173" vertical-offset="0" max-vertical-offset="666">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xwork-core-2.2.1.jar!/com/opensymphony/xwork2/ActionSupport.class">
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/js/dialog-form-validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.6005435" vertical-offset="373" max-vertical-offset="1962">
-          <folding />
-        </state>
+        <state line="20" column="38" selection-start="618" selection-end="618" vertical-scroll-proportion="0.62283736" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/js/holder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ViewArticleAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="623" selection-end="623" vertical-scroll-proportion="0.5111562" vertical-offset="0" max-vertical-offset="1152">
+        <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/service/client/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="77" selection-start="535" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/remoting/XFireExporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="468" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/org.springframework.web.servlet-3.0.5.RELEASE.jar!/org/springframework/web/servlet/handler/SimpleUrlHandlerMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/Servlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="169" selection-end="169" vertical-scroll-proportion="0.1598579" vertical-offset="0" max-vertical-offset="563" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="858" selection-end="858" vertical-scroll-proportion="0.5008881" vertical-offset="114" max-vertical-offset="702" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar!/org/codehaus/xfire/transport/AbstractChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="815" selection-end="815" vertical-scroll-proportion="-13.24" vertical-offset="29" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar!/org/codehaus/xfire/transport/http/XFireServletController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="19" selection-start="1935" selection-end="1935" vertical-scroll-proportion="-7.48" vertical-offset="389" max-vertical-offset="1206" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar!/org/codehaus/xfire/transport/DefaultEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="537" selection-end="537" vertical-scroll-proportion="0.3516874" vertical-offset="0" max-vertical-offset="563" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar!/org/codehaus/xfire/handler/HandlerPipeline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.5121528" vertical-offset="227" max-vertical-offset="828" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar!/org/codehaus/xfire/service/binding/ServiceInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="0.215311" vertical-offset="0" max-vertical-offset="836" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar!/org/codehaus/xfire/service/invoker/AbstractInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="393" selection-end="393" vertical-scroll-proportion="0.21201414" vertical-offset="0" max-vertical-offset="849" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/org.springframework.aop-3.0.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.42402828" vertical-offset="0" max-vertical-offset="849" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/org.springframework.aop-3.0.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="35" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.84805655" vertical-offset="0" max-vertical-offset="849" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar!/org/codehaus/xfire/transport/http/XFireServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.32296652" vertical-offset="0" max-vertical-offset="836" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/XFireSpringServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="80" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/js/fg/view_blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="48" selection-start="765" selection-end="781" vertical-scroll-proportion="0.35409835" vertical-offset="378" max-vertical-offset="3132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="370" column="0" selection-start="8739" selection-end="8739" vertical-scroll-proportion="-17.037037" vertical-offset="6200" max-vertical-offset="7236" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/images/breadcrumb_divider.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/images/icn_add_user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/img/glyphicons-halflings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/img/glyphicons-halflings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35125" selection-start="35292" selection-end="35354" vertical-scroll-proportion="0.25668448" vertical-offset="0" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="8" selection-start="579" selection-end="579" vertical-scroll-proportion="0.6532905" vertical-offset="133" max-vertical-offset="756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/blog/article_categories.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="27" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-11.886792" vertical-offset="0" max-vertical-offset="2664" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/js/article_categories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="87" selection-start="502" selection-end="502" vertical-scroll-proportion="-12.962963" vertical-offset="28" max-vertical-offset="2646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ArticleCategoryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="48" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.0" vertical-offset="1952" max-vertical-offset="2826" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="28" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.4157956" vertical-offset="1442" max-vertical-offset="2574" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="383" selection-end="383" vertical-scroll-proportion="-0.183391" vertical-offset="394" max-vertical-offset="972" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="37" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/WEB-INF/daoContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-1.4412297" vertical-offset="1157" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="790" selection-end="792" vertical-scroll-proportion="-0.62748647" vertical-offset="599" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="45" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.6368876" vertical-offset="890" max-vertical-offset="1584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/WEB-INF/xfire-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="25" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.67264575" vertical-offset="0" max-vertical-offset="669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="74" selection-start="112" selection-end="355" vertical-scroll-proportion="0.24251497" vertical-offset="0" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/images/black_bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/signon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="529" selection-end="529" vertical-scroll-proportion="-7.6153846" vertical-offset="0" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/bg_admin/css/signon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="18" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0" vertical-offset="712" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/js/valentine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/valentine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="65" selection-start="2771" selection-end="2771" vertical-scroll-proportion="-13.153846" vertical-offset="612" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="15" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.19838056" vertical-offset="1954" max-vertical-offset="2574">
           <folding />
         </state>
       </provider>
@@ -677,7 +1233,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>TechBlog:war exploded</last-edited>
+          <last-edited>TechBlogSpace:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -725,7 +1281,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TechBlog</last-edited>
+          <last-edited>TechBlogSpace</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
