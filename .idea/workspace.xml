@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd47df57-94de-4420-8417-184533088ca3" name="Default" comment="Initial commit&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/black_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/commons-codec-1.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/commons-httpclient-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/commons-logging.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_0.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/cyan_2.png" />
@@ -16,7 +13,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_2.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_3.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/green_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/jdom-1.0.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_0.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/purple_2.png" />
@@ -27,43 +23,21 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_2.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_3.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/red_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/stax-utils-20040917.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/valentine/valentine_pics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/wsdl4j-1.5.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-aegis-1.2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-annotations-1.2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-core-1.2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-java5-1.2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-jsr181-api-1.0-M1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-spring-1.2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xfire-xmlbeans-1.2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/lib/xstream-1.3.1.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_0.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_2.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_3.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/images/lights/yellow_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/client/ClientTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/service/TestServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/css/valentine.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/valentine.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/welcome/js/valentine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/xfire-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/beans/ArticleBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ArticleCategoryAction.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ArticleCategoryAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDao.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDaoImpl.java" afterPath="$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/TechBlog.iml" afterPath="$PROJECT_DIR$/TechBlog/TechBlog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlogSpace.iml" afterPath="$PROJECT_DIR$/TechBlogSpace.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TechBlog_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TechBlog_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/bg_admin/js/article_categories.js" afterPath="$PROJECT_DIR$/TechBlog/web/bg_admin/js/article_categories.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/bg_admin/blog/article_categories.jsp" afterPath="$PROJECT_DIR$/TechBlog/web/bg_admin/blog/article_categories.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechBlog/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/TechBlog/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechBlogSpace.iws" />
@@ -890,12 +864,17 @@
       <workItem from="1390464844983" duration="9543000" />
       <workItem from="1390545446498" duration="3089000" />
       <workItem from="1390707263497" duration="5182000" />
-      <workItem from="1390722508871" duration="5187000" />
+      <workItem from="1390722508871" duration="5289000" />
     </task>
+    <task id="LOCAL-00001" summary="Add webservice test">
+      <created>1390738587703</created>
+      <updated>1390738587703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41646000" />
+    <option name="totallyTimeSpent" value="41748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -943,6 +922,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Add webservice test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add webservice test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1114,7 +1095,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/actions/blog/ArticleCategoryAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="48" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.0" vertical-offset="1952" max-vertical-offset="2826" />
+        <state line="131" column="48" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.0" vertical-offset="1952" max-vertical-offset="2826">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/dao/ArticleCategoryDaoImpl.java">
@@ -1129,7 +1112,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TechBlog/src/org/charlestech/po/ArticleCategory.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
+        <state line="13" column="37" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TechBlog/web/WEB-INF/daoContext.xml">
