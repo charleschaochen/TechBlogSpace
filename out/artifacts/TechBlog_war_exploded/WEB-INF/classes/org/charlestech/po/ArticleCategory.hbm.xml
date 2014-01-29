@@ -16,5 +16,6 @@
 		<property name="articleCount" column="category_article_count" />
 		<property name="setTop" column="category_set_top" />
 		<property name="categoryState" column="category_state" />
+        <property name="categoryOrder" column="category_order" />
 	</class>
 </hibernate-mapping>
