@@ -5,6 +5,7 @@
 			+ request.getServerName() + ":" + request.getServerPort()
 			+ path + "/";
 %>
+<link rel="shortcut icon" href="/images/logo.png" />
 <link rel="stylesheet" type="text/css"
 	href="<%=basePath%>css/fg/common.css" />
 <link rel="stylesheet" type="text/css" href="/css/fg/text_style.css" />
