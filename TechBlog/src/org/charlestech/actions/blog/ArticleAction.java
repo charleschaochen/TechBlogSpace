@@ -147,7 +147,7 @@ public class ArticleAction extends ActionSupport {
         PrintWriter out = out = response.getWriter();
 
         ArticleReply reply = new ArticleReply();
-        reply.setVisitorName("".equals(visitor) ? "����" : visitor);
+        reply.setVisitorName("".equals(visitor) ? "匿名" : visitor);
         reply.setVisitorMail(email);
         reply.setVisitorWebsite(website);
         reply.setArticle(articleDao.findById(Integer.parseInt(articleId)));
