@@ -12,7 +12,6 @@ import net.sf.json.JSONObject;
 import org.apache.struts2.ServletActionContext;
 
 import com.opensymphony.xwork2.ActionSupport;
-import org.apache.log4j.Logger;
 import org.charlestech.dao.ArticleCategoryDao;
 import org.charlestech.po.ArticleCategory;
 import org.charlestech.utils.DateUtils;
@@ -66,9 +65,15 @@ public class ArticleCategoryAction extends ActionSupport {
         // Add article category to database
         ArticleCategory category = new ArticleCategory();
         category.setCategoryName(name);
-        category.setSetTop(Integer.parseInt(settop));
         category.setCreateTime(DateUtils.now_yyyy_MM_dd_HH_mm_ss());
-        if (acd.save(category) > 0) {
+        int saveRes;    // Save category result
+        if (Integer.parseInt(settop) == 1) {
+            saveRes = acd.pushStackSave(category);
+        } else {
+            saveRes = acd.inQueueSave(category);
+        }
+
+        if (saveRes > 0) {
             out.print("{retcode:0,mess:'New category created'}");
             return null;
         }
@@ -96,7 +101,6 @@ public class ArticleCategoryAction extends ActionSupport {
         category.setCategoryName(name);
         category.setSetTop(Integer.parseInt(settop));
         acd.update(category);
-        // logger.info("���²��ķ��ࣺ " + name);
         out.print("{retcode:0,mess:'Update category successfully'}");
         return null;
     }
