@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import net.sf.json.JSONArray;
 
-import org.apache.log4j.Logger;
 import org.apache.struts2.ServletActionContext;
 import org.charlestech.beans.ArticleBean;
 import org.charlestech.dao.AdminDao;
@@ -26,262 +25,260 @@ import com.opensymphony.xwork2.ActionSupport;
 
 /**
  * Article Operation CGI
- * 
+ *
  * @author Charles Chen
- * 
  */
 public class ArticleAction extends ActionSupport {
 
-	/**
-	 * Serial version UID
-	 */
-	private static final long serialVersionUID = -7125541942783151466L;
-	// private static Logger logger = Logger
-	// .getLogger(ArticleCategoryAction.class);
+    /**
+     * Serial version UID
+     */
+    private static final long serialVersionUID = -7125541942783151466L;
+    // private static Logger logger = Logger
+    // .getLogger(ArticleCategoryAction.class);
+    /* DAO Instances */
+    private ArticleDao articleDao;
+    private ArticleTagDao atd;
+    private ArticleCategoryDao acd;
+    private AdminDao ad;
+    private ArticleBean articleBean;
+
+    public void setArticleDao(ArticleDao articleDao) {
+        this.articleDao = articleDao;
+    }
+
+    public void setArticleBean(ArticleBean articleBean) {
+        this.articleBean = articleBean;
+    }
+
+    public void setAtd(ArticleTagDao atd) {
+        this.atd = atd;
+    }
+
+    public void setAcd(ArticleCategoryDao acd) {
+        this.acd = acd;
+    }
+
+    public void setAd(AdminDao ad) {
+        this.ad = ad;
+    }
+
 	/* DAO Instances */
-	private ArticleDao articleDao;
-	private ArticleTagDao atd;
-	private ArticleCategoryDao acd;
-	private AdminDao ad;
-	private ArticleBean articleBean;
 
-	public void setArticleDao(ArticleDao articleDao) {
-		this.articleDao = articleDao;
-	}
+    private String title;
+    private String content;
+    private String category;
+    private String tags;
+    private String settop;
+    private String state;
 
-	public void setArticleBean(ArticleBean articleBean) {
-		this.articleBean = articleBean;
-	}
+    /**
+     * Create new article
+     *
+     * @return
+     * @throws Exception
+     */
+    public String addArticle() throws Exception {
+        HttpServletResponse response = ServletActionContext.getResponse();
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = out = response.getWriter();
+        Article article = new Article();
+        article.setArticleTitle(title);
+        article.setArticleContent(content);
+        article.setArticleState(Integer.parseInt(state));
+        article.setAuthor(ad.findByName("charles"));
+        article.setCategory(acd.findById(Integer.parseInt(category)));
+        article.setPostTime(DateUtils.now_yyyy_MM_dd_HH_mm_ss());
+        article.setUpdateTime(DateUtils.now_yyyy_MM_dd_HH_mm_ss());
+        article.setSetTop(Integer.parseInt(settop));
+        if (articleBean.addOrUpdateArticle(article, 0) > 0) {
+            out.print("{retcode:0,mess:'New article created'}");
+            // Save article tags
+            String[] tags_arr = tags.split(";");
+            ArticleTag articleTag;
+            for (String tag : tags_arr) {
+                articleTag = new ArticleTag();
+                articleTag.setTagName(tag);
+                articleTag.setArticle(article);
+                atd.save(articleTag);
+            }
 
-	public void setAtd(ArticleTagDao atd) {
-		this.atd = atd;
-	}
+            // Update rss file
+            articleBean.updateRss();
+            return null;
+        }
 
-	public void setAcd(ArticleCategoryDao acd) {
-		this.acd = acd;
-	}
+        out.print("{retcode:-1,mess:'Failed to create'}");
+        return null;
+    }
 
-	public void setAd(AdminDao ad) {
-		this.ad = ad;
-	}
+    /**
+     * Get all tags
+     *
+     * @return
+     * @throws IOException
+     */
+    public String getAllTags() throws IOException {
+        HttpServletResponse response = ServletActionContext.getResponse();
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = out = response.getWriter();
+        // Get tags list
+        List<ArticleTag> tags = atd.findAll();
+        JSONArray tags_json = JSONArray.fromObject(tags);
+        out.print(tags_json);
+        return null;
+    }
 
-	/* DAO Instances */
+    private String articleId;
+    private String visitor;
+    private String email;
+    private String website;
+    private String replyContent;
 
-	private String title;
-	private String content;
-	private String category;
-	private String tags;
-	private String settop;
-	private String state;
+    /**
+     * Add a new article reply
+     *
+     * @return
+     * @throws IOException
+     */
+    public String addReply() throws IOException {
+        HttpServletResponse response = ServletActionContext.getResponse();
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = out = response.getWriter();
 
-	/**
-	 * Create new article
-	 * 
-	 * @return
-	 * @throws Exception
-	 */
-	public String addArticle() throws Exception {
-		HttpServletResponse response = ServletActionContext.getResponse();
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter out = out = response.getWriter();
-		Article article = new Article();
-		article.setArticleTitle(title);
-		article.setArticleContent(content);
-		article.setArticleState(Integer.parseInt(state));
-		article.setAuthor(ad.findByName("charles"));
-		article.setCategory(acd.findById(Integer.parseInt(category)));
-		article.setPostTime(DateUtils.now_yyyy_MM_dd_HH_mm_ss());
-		article.setUpdateTime(DateUtils.now_yyyy_MM_dd_HH_mm_ss());
-		article.setSetTop(Integer.parseInt(settop));
-		if (articleBean.addOrUpdateArticle(article, 0) > 0) {
-			// logger.info("添加博文： " + title);
-			out.print("{retcode:0,mess:'New article created'}");
-			// Save article tags
-			String[] tags_arr = tags.split(";");
-			ArticleTag articleTag;
-			for (String tag : tags_arr) {
-				articleTag = new ArticleTag();
-				articleTag.setTagName(tag);
-				articleTag.setArticle(article);
-				atd.save(articleTag);
-			}
+        ArticleReply reply = new ArticleReply();
+        reply.setVisitorName("".equals(visitor) ? "锟斤拷锟斤拷" : visitor);
+        reply.setVisitorMail(email);
+        reply.setVisitorWebsite(website);
+        reply.setArticle(articleDao.findById(Integer.parseInt(articleId)));
+        reply.setReplyContent(replyContent);
+        if (articleBean.addReply(reply) > 0) {
+            out.print("{retcode:0,mess:'Reply successfully'}");
+            return null;
+        }
+        out.print("{retcode:-1,mess:'Reply failed'}");
+        return null;
+    }
 
-			// Update rss file
-			articleBean.updateRss();
-			return null;
-		}
+    /**
+     * Get most recent article replies
+     *
+     * @return
+     * @throws IOException
+     */
+    public String getRecentArticleReplies() throws IOException {
+        HttpServletResponse response = ServletActionContext.getResponse();
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = out = response.getWriter();
+        // Get recent 5 article replies
+        List<ArticleReply> replies = articleBean.getArticleRepliesByCount(5);
+        // Set visitor default image
+        String visitorImg = getVisitorImg();
+        for (ArticleReply reply : replies) {
+            reply.setVisitorImg(visitorImg);
+            reply.getArticle().setArticleUid(
+                    IdEncrypter.encrypt(reply.getArticle().getArticleId()));
+        }
+        JSONArray replies_json = JSONArray.fromObject(replies);
+        out.print(replies_json.toString());
+        return null;
+    }
 
-		out.print("{retcode:-1,mess:'Failed to create'}");
-		return null;
-	}
+    /**
+     * Get visitor default image
+     *
+     * @return
+     */
+    private String getVisitorImg() {
+        return ServletActionContext.getServletContext().getInitParameter(
+                "visitor_img");
+    }
 
-	/**
-	 * Get all tags
-	 * 
-	 * @return
-	 * @throws IOException
-	 */
-	public String getAllTags() throws IOException {
-		HttpServletResponse response = ServletActionContext.getResponse();
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter out = out = response.getWriter();
-		// Get tags list
-		List<ArticleTag> tags = atd.findAll();
-		JSONArray tags_json = JSONArray.fromObject(tags);
-		out.print(tags_json);
-		return null;
-	}
+    public String getTitle() {
+        return title;
+    }
 
-	private String articleId;
-	private String visitor;
-	private String email;
-	private String website;
-	private String replyContent;
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	/**
-	 * Add a new article reply
-	 * 
-	 * @return
-	 * @throws IOException
-	 */
-	public String addReply() throws IOException {
-		HttpServletResponse response = ServletActionContext.getResponse();
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter out = out = response.getWriter();
+    public String getContent() {
+        return content;
+    }
 
-		ArticleReply reply = new ArticleReply();
-		reply.setVisitorName("".equals(visitor) ? "匿名" : visitor);
-		reply.setVisitorMail(email);
-		reply.setVisitorWebsite(website);
-		reply.setArticle(articleDao.findById(Integer.parseInt(articleId)));
-		reply.setReplyContent(replyContent);
-		if (articleBean.addReply(reply) > 0) {
-			out.print("{retcode:0,mess:'发表评论成功'}");
-			return null;
-		}
-		out.print("{retcode:-1,mess:'发表评论失败，请重试'}");
-		return null;
-	}
+    public void setContent(String content) {
+        this.content = content;
+    }
 
-	/**
-	 * Get most recent article replies
-	 * 
-	 * @return
-	 * @throws IOException
-	 */
-	public String getRecentArticleReplies() throws IOException {
-		HttpServletResponse response = ServletActionContext.getResponse();
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter out = out = response.getWriter();
-		// Get recent 5 article replies
-		List<ArticleReply> replies = articleBean.getArticleRepliesByCount(5);
-		// Set visitor default image
-		String visitorImg = getVisitorImg();
-		for (ArticleReply reply : replies) {
-			reply.setVisitorImg(visitorImg);
-			reply.getArticle().setArticleUid(
-					IdEncrypter.encrypt(reply.getArticle().getArticleId()));
-		}
-		JSONArray replies_json = JSONArray.fromObject(replies);
-		out.print(replies_json.toString());
-		return null;
-	}
+    public String getCategory() {
+        return category;
+    }
 
-	/**
-	 * Get visitor default image
-	 * 
-	 * @return
-	 */
-	private String getVisitorImg() {
-		return ServletActionContext.getServletContext().getInitParameter(
-				"visitor_img");
-	}
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
-	public String getTitle() {
-		return title;
-	}
+    public String getTags() {
+        return tags;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
 
-	public String getContent() {
-		return content;
-	}
+    public String getSettop() {
+        return settop;
+    }
 
-	public void setContent(String content) {
-		this.content = content;
-	}
+    public void setSettop(String settop) {
+        this.settop = settop;
+    }
 
-	public String getCategory() {
-		return category;
-	}
+    public String getState() {
+        return state;
+    }
 
-	public void setCategory(String category) {
-		this.category = category;
-	}
+    public void setState(String state) {
+        this.state = state;
+    }
 
-	public String getTags() {
-		return tags;
-	}
+    public String getArticleId() {
+        return articleId;
+    }
 
-	public void setTags(String tags) {
-		this.tags = tags;
-	}
+    public void setArticleId(String articleId) {
+        this.articleId = articleId;
+    }
 
-	public String getSettop() {
-		return settop;
-	}
+    public String getVisitor() {
+        return visitor;
+    }
 
-	public void setSettop(String settop) {
-		this.settop = settop;
-	}
+    public void setVisitor(String visitor) {
+        this.visitor = visitor;
+    }
 
-	public String getState() {
-		return state;
-	}
+    public String getEmail() {
+        return email;
+    }
 
-	public void setState(String state) {
-		this.state = state;
-	}
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
-	public String getArticleId() {
-		return articleId;
-	}
+    public String getWebsite() {
+        return website;
+    }
 
-	public void setArticleId(String articleId) {
-		this.articleId = articleId;
-	}
+    public void setWebsite(String website) {
+        this.website = website;
+    }
 
-	public String getVisitor() {
-		return visitor;
-	}
+    public String getReplyContent() {
+        return replyContent;
+    }
 
-	public void setVisitor(String visitor) {
-		this.visitor = visitor;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getWebsite() {
-		return website;
-	}
-
-	public void setWebsite(String website) {
-		this.website = website;
-	}
-
-	public String getReplyContent() {
-		return replyContent;
-	}
-
-	public void setReplyContent(String replyContent) {
-		this.replyContent = replyContent;
-	}
+    public void setReplyContent(String replyContent) {
+        this.replyContent = replyContent;
+    }
 }
