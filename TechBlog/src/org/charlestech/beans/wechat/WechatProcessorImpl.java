@@ -1,6 +1,8 @@
 package org.charlestech.beans.wechat;
 
+import org.apache.commons.lang.StringUtils;
 import org.charlestech.po.wechat.*;
+import org.charlestech.service.wechat.Query;
 import org.charlestech.utils.XMLUtils;
 
 import java.io.PrintWriter;
@@ -13,16 +15,54 @@ import java.util.Date;
  * @version 1.0
  */
 public class WechatProcessorImpl implements WechatProcessor {
+    private Query query;
+
+    public void setQuery(Query query) {
+        this.query = query;
+    }
 
     @Override
     public void proccessText(TextMessage text, PrintWriter out) {
-        String content = "OK. I receive your message: " + text.getContent();
+        String mess = text.getContent();
+        if (mess == null || StringUtils.isEmpty(mess)) {
+            out.print("");
+            return;
+        }
+        String respContent = null;
+        /* Start: Get response content according to the instruction */
+        if (mess.toLowerCase().startsWith(query.MOBILE_CODE)) {
+            // Mobile code query
+            String mobileCode = mess.replace(query.MOBILE_CODE, "").trim();
+            if (StringUtils.isEmpty(mobileCode)) {
+                respContent = query.EMPTY_CONTENT;
+            } else {
+                respContent = query.getMobileCode(mobileCode);
+                if (respContent == null) {
+                    respContent = query.CANNOT_FIND_MOBILE_CODE;
+                }
+            }
+
+        } else if (mess.toLowerCase().startsWith(query.PINYIN)) {
+            // Chinese Pinyin query
+            String word = mess.replace(query.PINYIN, "").trim();
+            if (StringUtils.isEmpty(word)) {
+                respContent = query.EMPTY_CONTENT;
+            } else {
+                respContent = query.getAllPinyin(word);
+                if (StringUtils.isEmpty(respContent)) {
+                    respContent = query.EXCEPTION;
+                }
+            }
+        }
+
+
+        /* End: Get response content according to the instruction */
         TextMessage respText = new TextMessage();
         respText.setFromUserName(text.getToUserName());
         respText.setToUserName(text.getFromUserName());
         respText.setCreateTime(String.valueOf(new Date().getTime()));
         respText.setMsgType(WechatUtils.TEXT);
-        respText.setContent(content);
+        respText.setContent(respContent);
         out.print(XMLUtils.objectToXml(respText));
     }
 

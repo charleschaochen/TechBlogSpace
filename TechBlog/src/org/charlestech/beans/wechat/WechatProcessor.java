@@ -16,15 +16,15 @@ import java.io.PrintWriter;
  * @version 1.0
  */
 public interface WechatProcessor {
-    public void proccessText(TextMessage text, PrintWriter out);
+    void proccessText(TextMessage text, PrintWriter out);
 
-    public void proccessVoice(VoiceMessage voice, PrintWriter out);
+    void proccessVoice(VoiceMessage voice, PrintWriter out);
 
-    public void proccessVideo(VideoMessage video, PrintWriter out);
+    void proccessVideo(VideoMessage video, PrintWriter out);
 
-    public void proccessPic(PicMessage picture, PrintWriter out);
+    void proccessPic(PicMessage picture, PrintWriter out);
 
-    public void proccessLink(LinkMessage link, PrintWriter out);
+    void proccessLink(LinkMessage link, PrintWriter out);
 
-    public void proccessLocation(LocationMessage location, PrintWriter out);
+    void proccessLocation(LocationMessage location, PrintWriter out);
 }

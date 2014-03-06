@@ -47,6 +47,8 @@ public class WechatUtils {
     public static final String URL = "Url";
     /* End: Wechat Message XML Element Names */
 
+    public static final String UTF8 = "utf-8";
+
     /**
      * Retrieve wechat message details
      *
@@ -58,7 +60,7 @@ public class WechatUtils {
     public static Message retrieveMessage(HttpServletRequest request) throws IOException, DocumentException {
         Message message = new Message();
         InputStream is = request.getInputStream();
-        Map<String, String> data = XMLUtils.parseXml(is);
+        Map<String, String> data = XMLUtils.parseXmlToMap(is, UTF8);
 
         // Build up message object according to the type
         String type = data.get(TYPE);
