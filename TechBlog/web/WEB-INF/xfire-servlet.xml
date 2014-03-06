@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
-        "http://www.springframework.org/dtd/spring-beans.dtd">
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-    <!-- 引入XFire预配置信息 -->
+    <!-- basic configuration -->
     <import resource="classpath:org/codehaus/xfire/spring/xfire.xml"/>
-    <!--—定义访问的url-->
+    <bean id="baseExporter" class="org.codehaus.xfire.spring.remoting.XFireExporter"
+          lazy-init="false" abstract="true">
+        <property name="serviceFactory" ref="xfire.serviceFactory"/>
+        <property name="xfire" ref="xfire"/>
+        <property name="outHandlers">
+            <list>
+                <ref bean="domOutHandler"/>
+                <!--<ref bean="soapOutHandler"/>-->
+            </list>
+        </property>
+        <property name="inHandlers">
+            <list>
+                <ref bean="domInHandler"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="domOutHandler" class="org.codehaus.xfire.util.dom.DOMOutHandler"/>
+    <!-- Interceptor -->
+    <!--<bean id="soapOutHandler" class="com.bing.webservice.SoapOutHandler"/>-->
+    <bean id="domInHandler" class="org.codehaus.xfire.util.dom.DOMInHandler"/>
+    <!-- basic configuration -->
+
+    <!--  定义访问的url，但是web.xml需要配置org.springframework.web.servlet.DispatcherServlet-->
     <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="urlMap">
             <map>
-                <entry key="/testws.ws">
-                    <ref bean="testws"/>
+                <entry key="/compute.ws">
+                    <ref bean="computeWS"/>
                 </entry>
             </map>
         </property>
     </bean>
-
-    <!-- 使用XFire导出器 -->
-    <bean id="baseWebService" class="org.codehaus.xfire.spring.remoting.XFireExporter" lazy-init="false"
-          abstract="true">
-        <!-- 引用xfire.xml中定义的工厂 -->
-        <property name="serviceFactory" ref="xfire.serviceFactory"/>
-        <!-- 引用xfire.xml中的xfire实例 -->
-        <property name="xfire" ref="xfire"/>
-    </bean>
-    <bean id="HelloWorldService" parent="baseWebService">
-        <!-- 业务服务bean -->
-        <property name="serviceBean" ref="testws"/>
-        <!-- 业务服务bean的窄接口类 -->
-        <property name="serviceClass" value="org.charlestech.service.TestService"/>
-    </bean>
-    <bean id="ComputerService" parent="baseWebService">
-        <!-- 业务服务bean -->
-        <property name="serviceBean" ref="computer"/>
-        <!-- 业务服务bean的窄接口类 -->
+    <!-- hello webservice -->
+    <bean id="computeWS" parent="baseExporter">
+        <property name="serviceBean" ref="compute"/>
         <property name="serviceClass" value="org.charlestech.service.ComputerService"/>
+        <property name="name" value="compute"/>
     </bean>
+    <bean id="compute" class="org.charlestech.service.ComputerServiceImpl"/>
+    <!-- hello webservice -->
 </beans>

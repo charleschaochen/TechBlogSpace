@@ -56,7 +56,6 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
           p:replyRmdAdminPath="/WEB-INF/mail_content/reply_reminder_admin.txt"
           p:replyRmdUserPath="/WEB-INF/mail_content/reply_reminder_user.txt"
           p:findPwdPath="/WEB-INF/mail_content/find_passwd.txt"/>
-
-    <bean id="testws" class="org.charlestech.service.TestServiceImpl"/>
-    <bean id="computer" class="org.charlestech.service.ComputerServiceImpl"/>
+    <bean id="wechatProcessor" class="org.charlestech.beans.wechat.WechatProcessorImpl" autowire="byType"/>
+    <bean id="query" class="org.charlestech.service.wechat.QueryImpl"/>
 </beans>
