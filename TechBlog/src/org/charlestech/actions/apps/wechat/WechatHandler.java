@@ -8,17 +8,12 @@ import org.charlestech.beans.wechat.WechatUtils;
 import org.charlestech.po.wechat.Message;
 import org.charlestech.po.wechat.TextMessage;
 import org.charlestech.utils.SHA1;
-import org.dom4j.DocumentException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Map;
 
 /*
  * @Description Interact with Wechat Open Platform
