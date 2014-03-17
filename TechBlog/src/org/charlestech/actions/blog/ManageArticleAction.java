@@ -10,7 +10,7 @@ import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 import org.apache.struts2.ServletActionContext;
-import org.charlestech.beans.ArticleBean;
+import org.charlestech.beans.blog.ArticleBean;
 import org.charlestech.dao.AdminDao;
 import org.charlestech.dao.ArticleCategoryDao;
 import org.charlestech.dao.ArticleTagDao;

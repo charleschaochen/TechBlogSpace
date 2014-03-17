@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.struts2.ServletActionContext;
-import org.charlestech.beans.ArticleBean;
+import org.charlestech.beans.blog.ArticleBean;
 import org.charlestech.po.Article;
 import org.charlestech.po.ArticleReply;
 import org.charlestech.utils.IdEncrypter;

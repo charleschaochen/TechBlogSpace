@@ -4,7 +4,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Map;
 
-import org.charlestech.beans.ArticleBean;
+import org.charlestech.beans.blog.ArticleBean;
 import org.charlestech.po.Article;
 import org.charlestech.utils.IdEncrypter;
 
