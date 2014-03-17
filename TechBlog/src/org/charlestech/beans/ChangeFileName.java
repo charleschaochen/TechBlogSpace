@@ -1,6 +1,5 @@
 package org.charlestech.beans;
 
-import java.text.*;
 import java.util.*;
 
 /**

@@ -1,4 +1,4 @@
-package org.charlestech.beans;
+package org.charlestech.beans.blog;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
