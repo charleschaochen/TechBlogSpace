@@ -79,7 +79,7 @@ body {
 }
 
 .blog_title .blog_title_info {
-	width: 400px;
+	width: 450px;
 	height: 100%;
 	margin-left: 10px;
 	text-align: left;
@@ -91,7 +91,7 @@ body {
 .blog_title_info .blog_title_text {
 	font-size: 20px;
 	font-weight: bold;
-	line-height: 2em
+	line-height: 2em;
 }
 
 .blog_title_info .blog_title_text a {
@@ -276,4 +276,8 @@ body {
 	font-size: 12px;
 	line-height: 1.5em;
 	margin-right: 5px
+}
+
+.clear {
+    clear: both;
 }
