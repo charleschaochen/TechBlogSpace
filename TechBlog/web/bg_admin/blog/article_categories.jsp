@@ -57,9 +57,6 @@
                             Count of Articles
                         </th>
                         <th>
-                            Top-allocated
-                        </th>
-                        <th>
                             Action
                         </th>
                     </tr>
