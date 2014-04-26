@@ -1,4 +1,4 @@
-package org.charlestech.beans.wechat;
+package org.charlestech.beans.apps.wechat;
 
 import org.apache.commons.lang.StringUtils;
 import org.charlestech.po.wechat.Message;
@@ -19,12 +19,16 @@ import java.util.Map;
  */
 public class WechatUtils {
     /* Start: Wechat Message Types */
-    public static final String TEXT = "text";
-    public static final String IMAGE = "image";
-    public static final String VOICE = "voice";
-    public static final String VIDEO = "video";
-    public static final String LOCATION = "location";
-    public static final String LINK = "link";
+    public static final String TEXT = "TEXT";
+    public static final String IMAGE = "IMAGE";
+    public static final String VOICE = "VOICE";
+    public static final String VIDEO = "VIDEO";
+    public static final String LOCATION = "LOCATION";
+    public static final String LINK = "LINK";
+
+    public enum MESS_TYPE {
+        TEXT, IMAGE, VOICE, VIDEO, LOCATION, LINK
+    }
     /* End: Wechat Message Types */
 
     /* Start: Wechat Message XML Element Names */
@@ -64,7 +68,7 @@ public class WechatUtils {
 
         // Build up message object according to the type
         String type = data.get(TYPE);
-        if (StringUtils.equals(type, TEXT)) {
+        if (type != null && StringUtils.equals(type.toUpperCase(), TEXT)) {
             message.setType(TEXT);
             message.setMess(buildTextMessage(data));
             return message;
