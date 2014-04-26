@@ -37,5 +37,10 @@
         <action name="wechat_handler" class="org.charlestech.actions.apps.wechat.WechatHandler">
         </action>
     </package>
+
+    <package name="fg_apps_action" extends="struts-default">
+        <action name="compress_action" class="org.charlestech.actions.apps.CompressAction">
+        </action>
+    </package>
     <package name="fg_json" extends="json-default"></package>
 </struts>
