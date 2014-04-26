@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Visit Restful Webservice</title>
+    <script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+//            $.ajax({
+//                url: "/rest/articles/get_articles",
+//                data: {},
+//                type: "GET",
+//                dataType: "json",
+//                success: function (data) {
+//                    var text = [];
+//                    for (var i = 0; i < data.length; i++) {
+//                        text.push(data[i].articleTitle);
+//                    }
+//                    $("#resp").html(text.join('<br>'));
+//
+//                },
+//                error: function () {
+//                    alert("Ajax Error");
+//                }
+//            });
+            $("#compress_btn").click(function () {
+                $.ajax({
+                    url: "/rest/compressor/compress",
+                    data: {source: $("#source").val(), type: $("#type").val()},
+                    type: "GET",
+                    dataType: "jsonp",
+                    jsonp: "callback",
+                    jsonpCallback: "TechBlogCallBack",
+                    success: function (data) {
+                        var ret_data = data;
+                        if (ret_data.retcode != 0) {
+                            alert(ret_data.mess);
+                                return;
+                        }
+                        $("#resp").text(ret_data.result);
+                    },
+                    error: function () {
+                        var message = "Ready State: " + XMLHttpRequest.readyState + "\n";
+                        message += "HTTP Response Code: " + XMLHttpRequest.status + "\n";
+                        message += "Error Message: " + error;
+                        alert(message);
+                    }
+                });
+            });
+
+        });
+    </script>
+</head>
+<body>
+<textarea id="source" rows="30" cols="100"></textarea>
+<br/>
+<select id="type">
+    <option value="js">Javascript</option>
+    <option value="css">CSS</option>
+</select>
+<button id="compress_btn">Compress</button>
+<p id="resp"></p>
+</body>
+</html>

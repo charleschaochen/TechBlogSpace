@@ -1,0 +1,72 @@
+<!doctype html>
+<head lang="zh-cn">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="view-port" content="width=device-width; initial-scale=1.0">
+    <title>File Upload Test</title>
+    <link rel="shortcut icon" href="/images/logo.png"/>
+    <link rel="stylesheet" href="/css/bootstrap-v3/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/fg/apps/compress.css"/>
+    <script src="/js/jquery-1.9.1.js"></script>
+    <script src="/js/bootstrap-v3/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-v3/bootstrap.file-input.js"></script>
+    <script src="/js/downloadify/downloadify.min.js"></script>
+    <script src="/js/downloadify/swfobject.js"></script>
+    <script src="/js/fg/apps/compress.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Javascript and CSS Compressor</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+    <!--<ul class="nav navbar-nav navbar-right">-->
+    <!--<li><a href="#">Open File</a></li>-->
+    <!--<li><a href="#">Export File</a></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!-- /.navbar-collapse -->
+</nav>
+
+<div class="main-container">
+    <div class="left-container">
+        <div class="alert alert-info textarea-title" style="margin-left: 20%">Source File</div>
+        <textarea id="source"></textarea>
+
+        <div class="option-area" style="margin-left: 20%">
+            <input type="file" title="Select From Disk" id="file_selector" class="btn-info"
+                   accept="application/javascript, text/css"/>
+            <select id="file_type">
+                <option value="js" selected>Javascript</option>
+                <option value="css">CSS</option>
+            </select>
+        </div>
+    </div>
+    <div class="middle-container">
+        <div class="arrow-right" title="Compress File" id="compress_btn"></div>
+        <!--<div class="arrow-left" title="Format File" id="format_btn"></div>-->
+    </div>
+    <div class="right-container">
+        <div class="alert alert-info textarea-title">Compressed File</div>
+        <textarea id="dest"></textarea>
+
+        <div class="option-area " id="downloadify" style="text-align: right; padding-top: 10px">
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<footer class="footer">
+    &copy; 2014 Tech Blog. Copyright by Charles Chen.
+</footer>
+</body>
+</html>

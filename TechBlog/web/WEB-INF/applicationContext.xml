@@ -58,4 +58,6 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
           p:findPwdPath="/WEB-INF/mail_content/find_passwd.txt"/>
     <bean id="wechatProcessor" class="org.charlestech.beans.apps.wechat.WechatProcessorImpl" autowire="byType"/>
     <bean id="query" class="org.charlestech.service.wechat.QueryImpl"/>
+    <bean id="compressor" class="org.charlestech.beans.apps.compress.YUICompressor" scope="prototype"
+          p:tempInputFile="/temp/compress_source.txt" p:tempOutputFile="/temp/compress_dest.txt"/>
 </beans>

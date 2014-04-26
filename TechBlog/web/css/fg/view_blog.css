@@ -71,6 +71,25 @@ body {
     margin-left: 10px
 }
 
+.blog_author_pic .shine {
+    background: url(/images/shine.png) -100px -100px no-repeat;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transition-property: all;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -webkit-transition-duration: .8s;
+}
+
+.blog_author_pic:hover .shine {
+    background-position: 55px 55px;
+}
+
 .blog_author_pic img {
     width: 55px;
     height: 55px;

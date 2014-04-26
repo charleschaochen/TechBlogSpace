@@ -14,4 +14,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
     <!-- Configure restful service -->
     <!--<context:component-scan base-package="org.charlestech.service.rest"/>-->
     <bean id="article_service" class="org.charlestech.service.rest.ArticleService" autowire="byType"/>
+    <bean id="message_service" class="org.charlestech.service.rest.MessageBoardService"
+          p:messageFilePath="/message_board.txt"/>
+    <bean id="compress_service" class="org.charlestech.service.rest.CompressService" autowire="byType"/>
 </beans>

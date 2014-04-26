@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Wechat Handler</title>
+    <script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#sbt").click(function () {
+                var data = "<xml>" +
+                        "   <ToUserName><![CDATA[toUser]]></ToUserName>" +
+                        "   <FromUserName><![CDATA[fromUser]]></FromUserName>" +
+                        "   <CreateTime>1348831860</CreateTime>" +
+                        "   <MsgType><![CDATA[text]]></MsgType>" +
+                        "   <Content><![CDATA[" + $("#message").val() + "]]></Content>" +
+                        "   <MsgId>1234567890123456</MsgId>" +
+                        "</xml>";
+                $.ajax({
+                    url: "/wechat_handler.shtml",
+                    data: data,
+                    type: "post",
+                    contentType: "text/html",
+                    success: function (data) {
+                        $("#resp").text(data);
+                    },
+                    error: function () {
+                        alert("Ajax Error");
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<p>Input Message: <input type="text" id="message"/></p>
+
+<p>
+    <button id="sbt">Send</button>
+</p>
+
+<p id="resp">
+</p>
+</body>
+</html>

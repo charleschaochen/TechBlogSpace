@@ -7,8 +7,7 @@ $(function () {
 		$("#welcome").hide("slow");
 	}, 3000);
 	init_load_data();
-	init_pagination();
-	
+
 	// Change article categories
 	$("#category").change(function () {
 		load_articles($(this).val(), "");
@@ -205,5 +204,6 @@ function load_pagination(page_div, pageNum, pageNo, maxShow, link) {
 	}
 	html += "</ul></div>";
 	$("." + page_div).html(html);
+    $("." + page_div).show();
 }
 

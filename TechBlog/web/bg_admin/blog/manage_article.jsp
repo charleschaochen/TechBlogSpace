@@ -91,7 +91,7 @@
                     <tbody id="pagination">
                     <tr>
                         <td colspan="5" style="text-align: right">
-                            <div class="blog_pagination">
+                            <div class="blog_pagination" style="display: none">
                             </div>
                         </td>
                     </tr>
