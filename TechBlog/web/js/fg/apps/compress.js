@@ -26,6 +26,7 @@ window.onload = function () {
         if (source == "")return;
         $.ajax({
             url: "/compress_action!compress.shtml",
+            async: false,
             data: {source: source, type: $("#file_type").val()},
             type: "post",
             success: function (data) {
