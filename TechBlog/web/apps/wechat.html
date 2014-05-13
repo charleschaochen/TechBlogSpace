@@ -8,12 +8,50 @@
     <script src="/js/jquery-1.9.1.js"></script>
     <script src="/js/bootstrap-v3/bootstrap.min.js"></script>
     <script src="/js/fg/apps/wechat.js"></script>
+    <script>
+        window.onload = function () {
+            Wechat.initWechatDialog("QQ音乐", {
+                "button": [
+                    {
+                        "type": "click",
+                        "name": "今日歌曲",
+                        "key": "V1001_TODAY_MUSIC"
+                    },
+                    {
+                        "type": "click",
+                        "name": "歌手简介",
+                        "key": "V1001_TODAY_SINGER"
+                    },
+                    {
+                        "name": "菜单",
+                        "sub_button": [
+                            {
+                                "type": "view",
+                                "name": "搜索",
+                                "url": "http://www.soso.com/"
+                            },
+                            {
+                                "type": "view",
+                                "name": "视频",
+                                "url": "http://v.qq.com/"
+                            },
+                            {
+                                "type": "click",
+                                "name": "赞一下我们",
+                                "key": "V1001_GOOD"
+                            }
+                        ]
+                    }
+                ]
+            });
+        }
+    </script>
 </head>
 <body>
 <div class="chat-window">
     <div class="title-bar">
         <div class="wechat-logo"></div>
-        <span>深大助手</span>
+        <span id="account_name"></span>
     </div>
     <div class="chat-history" id="chat-history">
     </div>
@@ -24,52 +62,8 @@
             <button class="btn btn-success" id="send-btn">发送</button>
         </div>
         <div class="input-text-area" id="menu-area" style="display: none">
-            <div class="menu-item btn-group dropup">
-                <div class="dropdown-toggle" data-toggle="dropdown">
-                    个人<span class="caret"></span>
-                </div>
-                <ul class="dropdown-menu">
-                    <li><a href="#">图书馆</a>
-                    <li class="divider"></li>
-                    <li><a href="#">我的成绩</a>
-                    <li class="divider"></li>
-                    <li><a href="#">我的课表</a>
-                    <li class="divider"></li>
-                    <li><a href="#">公文通</a></li>
-                </ul>
-            </div>
-            <div class="menu-item btn-group dropup">
-                <div class="dropdown-toggle" data-toggle="dropdown">
-                    校内<span class="caret"></span>
-                </div>
-                <ul class="dropdown-menu">
-                    <li><a href="#">兼职</a>
-                    <li class="divider"></li>
-                    <li><a href="#">二手交易</a>
-                    <li class="divider"></li>
-                    <li><a href="#">鹊桥交友</a>
-                    <li class="divider"></li>
-                    <li><a href="#">搭讪</a></li>
-                </ul>
-            </div>
-            <div class="menu-item btn-group dropup" style="border-right: 0">
-                <div class="dropdown-toggle" data-toggle="dropdown">
-                    生活<span class="caret"></span>
-                </div>
-                <ul class="dropdown-menu">
-                    <li><a href="#">快递查询</a>
-                    <li class="divider"></li>
-                    <li><a href="#">周边酒店</a>
-                    <li class="divider"></li>
-                    <li><a href="#">天气查询</a>
-                    <li class="divider"></li>
-                    <li><a href="#">外卖查询</a></li>
-                </ul>
-            </div>
         </div>
     </div>
 </div>
-
-
 </body>
 </html>
