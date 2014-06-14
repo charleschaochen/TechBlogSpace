@@ -25,6 +25,7 @@
     <link type="text/css" rel="stylesheet"
           href="/css/fg/shCoreDefault.css"/>
     <link rel="stylesheet" type="text/css" href="/css/fg/view_blog.css"/>
+    <script type="text/javascript" src="/js/backTop.js"></script>
 </head>
 
 <body>

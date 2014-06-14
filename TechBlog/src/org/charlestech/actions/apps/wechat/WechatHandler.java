@@ -3,10 +3,9 @@ package org.charlestech.actions.apps.wechat;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.commons.lang.StringUtils;
 import org.apache.struts2.ServletActionContext;
-import org.charlestech.beans.wechat.WechatProcessor;
-import org.charlestech.beans.wechat.WechatUtils;
+import org.charlestech.beans.apps.wechat.WechatProcessor;
+import org.charlestech.beans.apps.wechat.WechatUtils;
 import org.charlestech.po.wechat.Message;
-import org.charlestech.po.wechat.TextMessage;
 import org.charlestech.utils.SHA1;
 
 import javax.servlet.http.HttpServletRequest;
@@ -49,15 +48,8 @@ public class WechatHandler extends ActionSupport {
         Message message;
 
         try {
-            message = WechatUtils.retrieveMessage(request); // Read message
-            String type = message.getType();
-            /* Start: Process message according to the type */
-            // Text message
-            if (StringUtils.equals(type, WechatUtils.TEXT)) {
-                wechatProcessor.proccessText((TextMessage) message.getMess(), response.getWriter());
-                return null;
-            }
-            /* End: Process message according to the type */
+            message = WechatUtils.retrieveMessage(request); // Read message and build message object
+            wechatProcessor.process(message, response.getWriter()); // Process message
         } catch (Exception e) {
             e.printStackTrace();
         }

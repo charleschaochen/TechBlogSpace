@@ -22,16 +22,30 @@ import java.util.*;
  */
 public class XMLUtils {
     /**
+     * Parse XML to document
+     *
+     * @param is
+     * @param charset
+     * @return
+     * @throws UnsupportedEncodingException
+     */
+    public static Document parseXmlToDoc(InputStream is, String charset) throws UnsupportedEncodingException, DocumentException {
+        SAXReader reader = new SAXReader();
+        Document document = reader.read(new InputStreamReader(is, charset));    // Read document
+        return document;
+    }
+
+    /**
      * Parse XML to data map
      *
      * @param is Input stram
      * @return
      * @throws DocumentException
      */
-    public static Map<String, String> parseXml(InputStream is) throws DocumentException, IOException {
+    public static Map<String, String> parseXmlToMap(InputStream is, String charset) throws DocumentException, IOException {
         Map<String, String> data = new HashMap<String, String>();
         SAXReader reader = new SAXReader();
-        Document document = reader.read(new InputStreamReader(is, "UTF-8"));    // Read document
+        Document document = reader.read(new InputStreamReader(is, charset));    // Read document
         Element root = document.getRootElement(); // Get root element
         List<Element> elements = root.elements();
         // Retrieve all child element data
@@ -86,7 +100,7 @@ public class XMLUtils {
                 " <MsgId>1234567890123456</MsgId>\n" +
                 " </xml>\n";
         try {
-            Map<String, String> data = parseXml(new ByteArrayInputStream(xmlStr.getBytes()));
+            Map<String, String> data = parseXmlToMap(new ByteArrayInputStream(xmlStr.getBytes()), "UTF-8");
             Set<String> keySet = data.keySet();
             for (String key : keySet) {
                 System.out.println(key + ": " + data.get(key));

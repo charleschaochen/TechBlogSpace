@@ -10,21 +10,11 @@ $(function () {
         style: 2
     });
 });
-/**
- * Initialise the css
- */
-function init_style() {
-    var height_left = parseInt($(".blogs_container").css("height"));
-    var height_right = parseInt($(".tool_container").css("height"));
-    $(".main_content").css("height", height_left >= height_right ? height_left : height_right);
-}
+
 /**
  * Load data from sever when initialisation
  */
 function init_load_data() {
-    ARTICLE.loadTags();
-    ARTICLE.loadCates();
-    ARTICLE.loadReplies();
 }
 
 /**
@@ -42,4 +32,11 @@ function init_pagination() {
     }
     redirect_url += "page=";
     load_pagination_pageno("blog_pagination", $("#pageNum").val(), $("#pageNo").val(), 5, redirect_url);
+}
+
+/**
+ * Initialize data in view detail dialog
+ */
+function initDetail() {
+
 }

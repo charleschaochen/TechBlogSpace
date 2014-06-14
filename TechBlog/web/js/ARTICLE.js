@@ -37,7 +37,7 @@ ArticleLoader.prototype = {
             var ret_data = eval(data);
             var categories_html = "";
             for (var i = 0; i < ret_data.length; i++) {
-                categories_html += "<li><span class='icon-th-list'></span>&nbsp;<a href='/blog.shtml?category=" + ret_data[i].categoryId + "'>" + ret_data[i].categoryName + "</a>&nbsp;(<span class='text_bold_green'>" + ret_data[i].articleCount + "</span>)</li>";
+                categories_html += "<li><span class='glyphicon glyphicon-list-alt'></span>&nbsp;&nbsp;<a href='/blog.shtml?category=" + ret_data[i].categoryId + "'>" + ret_data[i].categoryName + "</a>&nbsp;(<span class='text_bold_green'>" + ret_data[i].articleCount + "</span>)</li>";
             }
             $("#article_categories").html(categories_html);
         });

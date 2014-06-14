@@ -19,7 +19,7 @@ function header_load_article_categories() {
 			if (i != 0 && i % 5 == 0) {
 				categories_html += "</ul></div><div class='column'><h3>&nbsp;</h3><ul>";
 			}
-			categories_html += "<li><a href='/blog.shtml?category=" + ret_data[i].categoryId + "'><span class='icon-th-list'></span>&nbsp;" + ret_data[i].categoryName + "</a></li><li>";
+			categories_html += "<li><span class='glyphicon glyphicon-list-alt'></span>&nbsp;&nbsp;<a href='/blog.shtml?category=" + ret_data[i].categoryId + "'>" + ret_data[i].categoryName + "</a></li><li>";
 		}
 		categories_html += "</ul></div>";
 		$("#megamenu_blog").html(categories_html);

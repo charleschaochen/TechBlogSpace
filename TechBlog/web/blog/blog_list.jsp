@@ -28,6 +28,7 @@
           href="/css/auto-pagination.min.css"/>
     <link rel="stylesheet" type="text/css"
           href="/css/tag_cloud/jqcloud.css"/>
+    <script type="text/javascript" src="/js/backTop.js"></script>
 </head>
 
 <body>
@@ -50,7 +51,8 @@
 								<span class="date_2"> <%=article.getPostTime().substring(8, 10)%>
 								</span>
                     </div>
-                    <div class="blog_author_pic" style="background: url(<%=article.getAuthor().getImage()%>); background-size:55px 55px">
+                    <div class="blog_author_pic"
+                         style="background: url(<%=article.getAuthor().getImage()%>); background-size:55px 55px">
                         <div class="shine"></div>
                     </div>
                     <div class="blog_title_info">
@@ -161,7 +163,6 @@
     </div>
     <jsp:include page="/common/common_footer.html" flush="true"/>
 </div>
-
 <!-- Include javascript file -->
 <script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
 <script type="text/javascript"

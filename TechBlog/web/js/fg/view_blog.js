@@ -2,6 +2,13 @@ $(function () {
     init_load_data();
     //init_style();
     init_editor();
+
+    // Create back to top icon
+    backTop.createBackTop({
+        bottom: "80px",
+        right: "200px",
+        style: 2
+    });
 });
 /**
  * Load data from sever when initialisation

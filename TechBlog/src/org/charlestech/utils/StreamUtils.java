@@ -28,13 +28,14 @@ public class StreamUtils {
      * @return
      * @throws IOException
      */
-    public static String inputStreamToString(InputStream is) throws IOException {
+    public static String inputStreamToString(InputStream is, String charset) throws IOException {
         StringBuilder sb = new StringBuilder();
         String line = null;
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         while ((line = br.readLine()) != null) {
             sb.append(line);
         }
+        br.close();
         return sb.toString();
     }
 }
