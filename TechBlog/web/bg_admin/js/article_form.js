@@ -193,8 +193,8 @@ function validate_content() {
         show_error("\u5185\u5bb9\u4e0d\u80fd\u4e3a\u7a7a");
         return false;
     }
-    if (content.length > 20000) {
-        show_error("\u5185\u5bb9\u4e0d\u80fd\u8d85\u8fc720000\u4e2a\u5b57\u7b26\uff0c\u4f60\u5df2\u8f93\u5165" + content.length + "\u4e2a\u5b57\u7b26");
+    if (content.length > 30000) {
+        show_error("\u5185\u5bb9\u4e0d\u80fd\u8d85\u8fc730000\u4e2a\u5b57\u7b26\uff0c\u4f60\u5df2\u8f93\u5165" + content.length + "\u4e2a\u5b57\u7b26");
         return false;
     }
     return true;

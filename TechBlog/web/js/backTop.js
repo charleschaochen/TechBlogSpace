@@ -30,7 +30,7 @@ var backTop = {
                 break;
         }
         backTopDiv.attr("title", "返回顶部");
-        backTopDiv.click(t.scrollToTop());
+        backTopDiv.click(t.scrollToTop);
         $("body").append(backTopDiv);
         $(window).scroll(function () {
             t.onScroll(this.backTopid, 200);
@@ -66,7 +66,7 @@ var backTop = {
     },
 
     buildSimpleStyleIcon: function (obj) {
-        var backTopDiv = $("<a id='" + this.id + "' href='#'><span>▲</span></a>");
+        var backTopDiv = $("<a id='" + this.id + "'><span>▲</span></a>");
         backTopDiv.css("width", "50px");
         backTopDiv.css("height", "50px");
         backTopDiv.css("border-radius", "6px");
@@ -104,7 +104,7 @@ var backTop = {
      * @returns {*|jQuery|HTMLElement}
      */
     buildRocketStyleIcon: function (obj) {
-        var backTopDiv = $("<a id='" + this.id + "' href='#'></a>");
+        var backTopDiv = $("<a id='" + this.id + "'></a>");
         backTopDiv.css("width", "36px");
         backTopDiv.css("height", "65px");
         backTopDiv.css("background", "url(/images/rocket.png)");
@@ -132,7 +132,7 @@ var backTop = {
     },
 
     buildArrowStyleIcon: function (obj) {
-        var backTopDiv = $("<a id='" + this.id + "' href='#'></a>");
+        var backTopDiv = $("<a id='" + this.id + "'></a>");
         backTopDiv.css("width", "36px");
         backTopDiv.css("height", "33px");
         backTopDiv.css("background", "url(/images/backtop.gif)");
