@@ -12,13 +12,16 @@
 	<constant name="struts.multipart.maxSize" value="31457280"></constant>
 	<!-- 指定Struts 2应用编码的字符集 -->
 	<constant name="struts.i18n.encoding" value="UTF-8" />
-	<package name="bg_action" extends="struts-default">
-		<action name="login"
-			class="org.charlestech.actions.AdminLoginAction">
-			<result type="redirect" name="login">
-				/bg_admin/signon.html
-			</result>
-		</action>
+    <package name="bg_action" extends="struts-default">
+        <action name="login"
+                class="org.charlestech.actions.AdminLoginAction">
+            <result type="redirect" name="login">
+                /bg_admin/signon.html
+            </result>
+        </action>
+    </package>
+
+	<package name="bg_blog_action" extends="struts-default">
 		<action name="article_category"
 			class="org.charlestech.actions.blog.ArticleCategoryAction">
 		</action>

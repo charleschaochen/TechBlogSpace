@@ -23,12 +23,12 @@ function load_categories() {
         var ret_data = eval(data);
         var category_list = [];
         for (var i = 0; i < ret_data.length; i++) {
-            var settop = "\u5426";
-            if (ret_data[i].setTop == "1") {
-                settop = "\u662f";
-            }
+            /*var settop = "\u5426";
+             if (ret_data[i].setTop == "1") {
+             settop = "\u662f";
+             }*/
             var obj = ret_data[i];
-            var category = "<tr><td>" + obj.categoryName + "</td><td>" + obj.createTime.substr(0, 19) + "</td><td>" + obj.articleCount + "</td><td>" + settop + "</td><td><input type='image' src='../images/icn_edit.png' title='Edit Category' onclick='edit(" + JSON.stringify(obj) + ")'/><input type='image' src='../images/icn_trash.png' title='Delete Category' onclick='delete_category(" + JSON.stringify(obj) + ")'/><i class='icon-arrow-up' title='Elevate category' onclick='orderUp(" + obj.categoryId + ")'></i></td></tr>";
+            var category = "<tr><td>" + obj.categoryName + "</td><td>" + obj.createTime.substr(0, 19) + "</td><td>" + obj.articleCount + "</td><td><input type='image' src='../images/icn_edit.png' title='Edit Category' onclick='edit(" + JSON.stringify(obj) + ")'/><input type='image' src='../images/icn_trash.png' title='Delete Category' onclick='delete_category(" + JSON.stringify(obj) + ")'/><i class='icon-arrow-up' title='Elevate category' onclick='orderUp(" + obj.categoryId + ")'></i></td></tr>";
             category_list.push(category);
         }
         $("#category_list").html(category_list.join(""));

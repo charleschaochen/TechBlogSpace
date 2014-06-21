@@ -1,279 +1,302 @@
 @CHARSET "UTF-8";
 
 body {
-	font-family: "微软雅黑"
+    font-family: "微软雅黑"
 }
 
 .main_box {
-	position: absolute;
-	width: 100%;
-	top: 140px;
-	left: 0;
-	text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    left: 0;
+    text-align: center;
 }
 
 .main_box .main_content {
-	width: 1000px;
-	background-color: #FFF;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 50px;
-	min-height: 1400px;
-	border: 20px solid #FFF
+    width: 1000px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    min-height: 1400px;
+    border: 20px solid #FFF
 }
 
 .main_content .blogs_container {
-	width: 70%;
-	float: left;
+    width: 70%;
+    float: left;
 }
 
 .main_content .tool_container {
-	width: 25%;
-	float: right;
-	margin-right: 5px;
-	float: right;
+    width: 25%;
+    float: right;
+    margin-right: 5px;
+    float: right;
 }
 
 .blogs_container .blog_box {
-	width: 100%;
-	margin-top: 10px
+    width: 100%;
+    margin-top: 10px
 }
 
 .blog_box .blog_title {
-	width: 100%;
-	height: 57px;
+    width: 100%;
+    height: 57px;
 }
 
 .blog_title .blog_post_date {
-	width: 60px;
-	height: 100%;
-	text-align: center;
-	border-right: 2px solid #ddd;
-	float: left;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    border-right: 2px solid #ddd;
+    float: left;
 }
 
 .blog_title .blog_post_date .date_1 {
-	font-size: 12px;
-	color: #999;
-	font-weight: bold;
-	line-height: 25px
+    font-size: 12px;
+    color: #999;
+    font-weight: bold;
+    line-height: 25px
 }
 
 .blog_title .blog_post_date .date_2 {
-	font-size: 18px;
-	color: #FFA500;
-	font-weight: bold;
+    font-size: 18px;
+    color: #FFA500;
+    font-weight: bold;
 }
 
 .blog_title .blog_author_pic {
-	width: 55px;
-	height: 55px;
-	border: 1px solid #3399CC;
-	float: left;
-	margin-left: 10px
+    width: 55px;
+    height: 55px;
+    border: 1px solid #3399CC;
+    float: left;
+    margin-left: 10px
 }
 
 .blog_author_pic img {
-	width: 55px;
-	height: 55px;
+    width: 55px;
+    height: 55px;
+}
+
+.blog_author_pic .shine {
+    background: url(/images/shine.png) -100px -100px no-repeat;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transition-property: all;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -webkit-transition-duration: .8s;
+}
+
+.blog_author_pic:hover .shine {
+    background-position: 55px 55px;
 }
 
 .blog_title .blog_title_info {
-	width: 400px;
-	height: 100%;
-	margin-left: 10px;
-	text-align: left;
-	over-flow: hidden;
-	float: left;
-	over-flow: hidden;
+    width: 450px;
+    height: 100%;
+    margin-left: 10px;
+    text-align: left;
+    over-flow: hidden;
+    float: left;
+    over-flow: hidden;
 }
 
 .blog_title_info .blog_title_text {
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 2em
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2em;
 }
 
 .blog_title_info .blog_title_text a {
-	color: #333;
-	text-decoration: none
+    color: #333;
+    text-decoration: none
 }
 
 .blog_title_info .blog_title_text a:hover {
-	color: #666;
-	text-decoration: none
+    color: #666;
+    text-decoration: none
 }
 
 .blog_title_info .blog_post_info {
-	color: #666;
-	font-size: 12px;
+    color: #666;
+    font-size: 12px;
 }
 
 .blog_title_info .blog_post_info a {
-	color: #FFA500;
-	text-decoration: none;
-	font-weight: bold
+    color: #FFA500;
+    text-decoration: none;
+    font-weight: bold
 }
 
 .blog_title .blog_reply_num {
-	width: 55px;
-	height: 55px;
-	background: url(../../images/reply_num_yellow.png);
-	float: right;
-	line-height: 2.5em;
-	color: #FFF;
-	font-weight: bold;
-	font-size: 18px;
-	cursor: pointer;
+    width: 55px;
+    height: 55px;
+    background: url(../../images/reply_num_yellow.png);
+    float: right;
+    line-height: 2.5em;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .blog_title .blog_reply_num:hover {
-	background: url(../../images/reply_num_blue.png);
-	text-decoration: none;
+    background: url(../../images/reply_num_blue.png);
+    text-decoration: none;
 }
 
 .blog_box .blog_description {
-	width: 630px;
-	margin-top: 10px;
-	margin-left: 70px;
-	text-align: left;
-	font-size: 14px;
-	color: #333;
-	font-size: 14px;
-	text-align: left;
-	font-size: 14px;
+    width: 630px;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    font-size: 14px;
 }
 
 .blog_description .blog_tags {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .blog_description .blog_tags a {
-	color: #63C000;
-	text-decoration: none;
-	font-weight: bold;
-	margin-right: 5px
+    color: #63C000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px
 }
 
 .blog_box .blog_view_all {
-	width: 630px;
-	margin-top: 10px;
-	margin-left: 70px;
-	text-align: left;
-	font-size: 12px
+    width: 630px;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-align: left;
+    font-size: 12px
 }
 
 .blog_box .blog_view_all a {
-	color: #3399CC;
-	text-decoration: none;
+    color: #3399CC;
+    text-decoration: none;
 }
 
 .blog_box .blog_view_all a:hover {
-	color: #FFA500;
-	text-decoration: none;
+    color: #FFA500;
+    text-decoration: none;
 }
 
 .blog_box .blog_separator {
-	width: 100%;
-	height: 10px;
-	background: url(../../images/separator.png) repeat-x;
-	margin-top: 30px;
+    width: 100%;
+    height: 10px;
+    background: url(../../images/separator.png) repeat-x;
+    margin-top: 30px;
 }
 
 .blogs_container .blog_pagination {
-	width: 100%;
-	text-align: left;
-	padding-left: 10px
+    width: 100%;
+    text-align: left;
+    padding-left: 10px
 }
 
 .tool_container .rss_box {
-	width: 250px;
-	height: 50px;
-	background: url(../../images/rss.png);
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	margin-top: 20px;
-	cursor: pointer;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	border-radius: 6px;
-	-moz-box-shadow: 3px 3px 4px #999;
-	-webkit-box-shadow: 3px 3px 4px #999;
-	box-shadow: 3px 3px 4px #999;
+    width: 250px;
+    height: 50px;
+    background: url(../../images/rss.png);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 3px 3px 4px #999;
+    -webkit-box-shadow: 3px 3px 4px #999;
+    box-shadow: 3px 3px 4px #999;
 }
 
 .tool_container .tool_box {
-	width: 100%;
-	margin-top: 20px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .tool_box .tool_title {
-	width: 100%;
-	height: 30px;
-	border-bottom: 1px solid #ccc;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: left;
-	line-height: 1.5em;
-	text-align: left;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5em;
+    text-align: left;
 }
 
 .tool_box .tool_content {
-	width: 100%;
-	text-align: left
+    width: 100%;
+    text-align: left
 }
 
 .tool_content .tag_cloud {
-	width: 250px;
-	height: 150px;
-	border: 1px solid #ddd;
-	margin-top: 10px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	-moz-box-shadow: 3px 3px 4px #eee;
-	-webkit-box-shadow: 3px 3px 4px #eee;
-	box-shadow: 3px 3px 4px #eee;
+    width: 250px;
+    height: 150px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 3px 3px 4px #eee;
+    -webkit-box-shadow: 3px 3px 4px #eee;
+    box-shadow: 3px 3px 4px #eee;
 }
 
 .tool_content ul {
-	width: 100%;
-	font-size: 14px;
-	padding: 0;
-	margin: 0;
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
 }
 
 .tool_content ul li {
-	list-style: none;
-	margin-top: 10px;
-	width: 100%;
+    list-style: none;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .tool_content ul li a {
-	text-decoration: none;
-	color: #3399CC
+    text-decoration: none;
+    color: #3399CC
 }
 
 .tool_content ul li .reply_pic {
-	width: 55px;
-	height: 55px;
-	float: left;
-	border: 1px solid #3399CC;
+    width: 55px;
+    height: 55px;
+    float: left;
+    border: 1px solid #3399CC;
 }
 
 .reply_pic img {
-	width: 55px;
-	height: 55px
+    width: 55px;
+    height: 55px;
 }
 
 .tool_content ul li .reply_content {
-	width: 175px;
-	height: 55px;
-	text-align: left;
-	float: right;
-	overflow: hidden;
-	font-size: 12px;
-	line-height: 1.5em;
-	margin-right: 5px
+    width: 175px;
+    height: 55px;
+    text-align: left;
+    float: right;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-right: 5px
+}
+
+.clear {
+    clear: both;
 }

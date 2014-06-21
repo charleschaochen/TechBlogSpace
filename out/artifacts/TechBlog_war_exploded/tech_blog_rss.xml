@@ -6,19 +6,13 @@
 	<description>Articles RSS from Charles Tech Blog</description>
 	<language>cn</language>
 	<copyright>Copyright by Charles Chen</copyright>
-	<pubdate>2013-12-31 16:44:55</pubdate>
 <item>
-	<title>test</title>
-	<description>test......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=AXQZRSCWED8</link>
-	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=ZECWSXRQAD1</guid>
-</item><item>
 	<title>JavaScript 跨域总结与解决办法</title>
 	<description>什么是跨域JavaScript出于安全方面的考虑，不允许跨域调用其他页面的对象。但在安全限制的同时也给注入iframe或是ajax应用上带来了不少麻烦。这里把涉及到跨域的一些问题简单地整理一下：首先什么是跨域，简单地理解就是因为JavaScript同源策略的限制，a.com 域名下的js无法操作b.com或是c.a.com域名下的对象。更详细的说明可以看下表：URL说明是否允许通信http://w......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=ZWRSXCADEQ4</link>
+	<link>http://www.charlestech.org/view_article.shtml?uid=QZCXSDEWRA3</link>
 	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=ZDSEQCWXAR7</guid>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=ADCSZXERWQ5</guid>
+	<pubDate>2013-12-18 11:31:30</pubDate>
 </item><item>
 	<title>分享一个强制关闭页面函数</title>
 	<description>在WEB前端开发中，有时候需要强制关闭当前页面，可以通过js来实现，但不同浏览器的具体实现有所差异。这里博主分享一个适应多个主流浏览器的关闭页面函数。/**
@@ -27,51 +21,39 @@
 function close_page() {
  if (navigator.userAgent.indexOf(&amp;quot;MSIE&amp;quot;) &amp;gt; 0) {
   if (navi......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=RCQEAXWZSD6</link>
+	<link>http://www.charlestech.org/view_article.shtml?uid=EZQSCDWRXA6</link>
 	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=SXRADZCEWQ8</guid>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=XWACQRSDZE1</guid>
+	<pubDate>2013-11-27 15:50:37</pubDate>
 </item><item>
-	<title>test11</title>
-	<description>test11......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=XZWEASDRCQ43</link>
+	<title>教你如何迅速秒杀掉：99%的海量数据处理面试题</title>
+	<description>前言&amp;nbsp;&amp;nbsp; 一般而言，标题含有“秒杀”，“99%”，“史上最全/最强”等词汇的往往都脱不了哗众取宠之嫌，但进一步来讲，如果读者读罢此文，却无任何收获，那么，我也甘愿背负这样的罪名，:-)，同时，此文可以看做是对这篇文章：十道海量数据处理面试题与十个方法大总结的一般抽象性总结。&amp;nbsp; &amp;nbsp; 毕竟受文章和理论之限，本文将摒弃绝大部分的细节，只谈方法/模式论，且注重用最通......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=DQSERWAZCX60</link>
 	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=RXQAZCDSEW38</guid>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=QRXSECDAWZ76</guid>
+	<pubDate>2014-03-05 10:50:15</pubDate>
 </item><item>
-	<title>test10</title>
-	<description>test10......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=WRSADZQXCE32</link>
+	<title>修改Tomcat的默认根目录</title>
+	<description>在tomcat服务器上发布J2EE应用后，一般我们通过http://localhost:8080/&amp;lt;AppName&amp;gt;来访问。这种访问方式有个麻烦的地方就是，在应用中我们就不能使用类似&amp;quot;/js/jquery.js&amp;quot;来访问应用中的资源，得用相对路径或使用以下java代码获取应用的绝对路径，String path = request.getContextPath();
+	......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=DSQWEACXRZ1</link>
 	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=DXZQEWCASR78</guid>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=ZCRSDQXAEW3</guid>
+	<pubDate>2013-11-27 16:33:25</pubDate>
 </item><item>
-	<title>test10</title>
-	<description>test10......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=SQXAZWDERC32</link>
+	<title>Uber：不只是打车应用</title>
+	<description>打车应用 Uber 希望能让更多人上路。为了实现这个目标，他们与丰田和通用汽车达成协议，任何购买二者汽车的 Uber 用户都将享受一定的购车折扣。Uber CEO 特拉维斯·卡兰尼克（Travis Kalanick）在&amp;nbsp;TechCrunch 采访中说道，他们同时和数家贷款机构达成合作，将给购车的 Uber 用户带来更多优惠。所有优惠都是为了促使更多人开车上路，最终目的是吸引更多人使用 U......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=AQESWCXRDZ9</link>
 	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=ZRACSDXEQW26</guid>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=WRZAQESXCD2</guid>
+	<pubDate>2013-11-26 18:11:34</pubDate>
 </item><item>
-	<title>test9</title>
-	<description>test9......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=SEWCXRAZDQ62</link>
+	<title>NBA 与 SAP 联手改变看球方式</title>
+	<description>Fastcompany 报道，本周一，NBA 球迷即可在&amp;nbsp;NBA.com/SATS&amp;nbsp;上免费享用 NBA 与 SAP、STATS LLC 携手创建的完整 NBA 球赛数据库。NBA 的高级副总裁兼首席信息官 Michael Gliedman 谈到：“我们将视频和数据联姻，视频和数据讲不同的故事，但是两者互相补充。我们利用视频的情境来阐释数据，以球迷需要的方式讲好故事。我们经常问，......</description>
+	<link>http://www.charlestech.org/view_article.shtml?uid=SWCDEQZAXR7</link>
 	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=ZEQSWXACRD64</guid>
-</item><item>
-	<title>test7</title>
-	<description>test7......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=CXWDASZRQE46</link>
-	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=SXEZAWCQDR43</guid>
-</item><item>
-	<title>test6</title>
-	<description>test6......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=CSXWQDARZE66</link>
-	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=EXAQWCRZSD22</guid>
-</item><item>
-	<title>test5</title>
-	<description>test5......</description>
-	<link>http://www.charlestech.org/view_article.shtml?uid=ADWRQSZCEX04</link>
-	<author>charles</author>
-	<guid>http://www.charlestech.org/view_article.shtml?uid=DRASXQZCEW25</guid>
+	<guid>http://www.charlestech.org/view_article.shtml?uid=DXQASCWERZ3</guid>
+	<pubDate>2013-11-26 18:09:25</pubDate>
 </item>
 </channel>
 </rss>
